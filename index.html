@@ -2,24 +2,7 @@
 <html lang="en">
 <head>
     <title>Clothing Done Right</title>
-
-    <style>
-        .logo-class {
-            width: 200px;
-            border-radius: 300px;
-            float: 10px;
-            object-fit: cover;
-
-
-        }
-
-        .pringles-class {
-            height: 700px;
-            width: 200px;
-        }
-
-    </style>
-    
+    <link href="/styling.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +10,8 @@
 </head>
 
 <body style="background-color:black;">
-    <h1 style="color:darkgoldenrod">Clothing Done Right Heading</h1>
+
+    <h1 class="logo-class">Clothing Done Right Heading</h1>
     <img src="images/Clothing Done Right.png" alt="Logo" class="logo-class">
     <h1 style ="color:darkmagenta">Clothing Done Right</h1> <!--Setting the colour of the paragraph-->
     <p style = "color: white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam, libero dolores laborum at delectus provident nesciunt autem dolorem totam. Voluptates quae temporibus sed unde, consequatur quisquam dolorem consectetur nihil.</p>
@@ -41,5 +25,19 @@
 
     <h3 style = "color: white;">About me</h3>
     <a href = "/About me.html">Click this link to visit the about me page</a>
+
+    <h4 class="song-class">Listen to this really epic video</h4>
+    <video controls class="vid-class">
+        <source src="videos/yt1s.com - How to gangster 3_360p.mp4" type="video/mp4">
+    </video>
+    <p></p>
+    <a href="videos/yt1s.com - How to gangster 3_360p.mp4" download>Download this really eoic video jugego</a> <!--Playing a video from your file system-->
+
+    <h5 class="song-yt">Listen to another really epic song</h5>
+    <iframe width="1000" height="500" controls
+    src="https://www.youtube.com/embed/rGHjomb4i-s">
+    </iframe>
+
+    </iframe>
 </body>
 </html>
