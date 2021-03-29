@@ -12,3 +12,12 @@
     color: darkgoldenrod;
     font-size: 50px;
 }
+.vid-class {
+    height: 500px;
+    width: 1000px;
+    object-fit: cover;
+}
+.song-yt {
+    color: darkgoldenrod;
+    font-size: 25px;
+}
