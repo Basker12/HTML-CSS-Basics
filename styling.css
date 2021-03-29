@@ -3,7 +3,6 @@
     height: 250px;
     object-fit: cover;
 }
-
 .logo-class {
     color: darkgoldenrod;
 }
@@ -21,3 +20,23 @@
     color: darkgoldenrod;
     font-size: 25px;
 }
+.button-class {
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+.css-button {
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.css-button {
+    transition-duration: 0.4s;
+}
+.css-button:hover {
+    background-color: black;
+    color: white
+}
+<!--- Made the button fade in and out--->
