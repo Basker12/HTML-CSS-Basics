@@ -1,0 +1,14 @@
+.pringles-class {
+    width: 100px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.logo-class {
+    color: darkgoldenrod;
+}
+
+.song-class {
+    color: darkgoldenrod;
+    font-size: 50px;
+}
