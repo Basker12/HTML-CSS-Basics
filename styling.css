@@ -45,3 +45,10 @@
 .txt {
     color: white;
 }
+.txt-2 {
+    background-color: rgba(255, 99, 71, 0.2);
+}
+.obama-class {
+    width: 250px;
+    height: 200px;
+}
