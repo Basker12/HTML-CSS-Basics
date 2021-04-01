@@ -10,3 +10,5 @@ Things i want to do:
 - Learn a lot more about CSS.
 - Make the website look just a little bit better.
 - After all of the things above i want to start learning JavaScript to give the website some functionality.
+- At the moment i have just reading through the w3Schools guide to HTML, i wont be adding every feature as i feel some aren't as interesting,
+- im adding stuff i like.
