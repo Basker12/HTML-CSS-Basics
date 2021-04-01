@@ -52,3 +52,10 @@
     width: 250px;
     height: 200px;
 }
+.first-table {
+    color: white;
+    width: 250px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: left;
+}
