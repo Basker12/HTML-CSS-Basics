@@ -1,6 +1,6 @@
 .pringles-class {
-    width: 100px;
-    height: 250px;
+    width: 100%;
+    height: 50%;
     object-fit: cover;
 }
 .logo-class {
@@ -13,7 +13,7 @@
 }
 .vid-class {
     height: 500px;
-    width: 1000px;
+    width: 100%;
     object-fit: cover;
 }
 .song-yt {
@@ -49,7 +49,7 @@
     background-color: rgba(255, 99, 71, 0.2);
 }
 .obama-class {
-    width: 250px;
+    width: 100%;
     height: 200px;
 }
 .first-table {
