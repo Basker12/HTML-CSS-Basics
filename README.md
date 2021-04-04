@@ -6,8 +6,6 @@ Recently i was set a project to make a website, this website didnt have to look 
 So far i've learnt quite a bit, i know how to put in images how to style them in CSS and put a link under the image to allow the user to download it. I added another page with just an image to test it out. Im not gonna list everything i know so far but check out the index.html file in the repo for the whole code. Of course the website looks like a 5yr old as made it but im gonna improve it too look a lot better.
 
 Things i want to do:
-- Learn a lot more about HTML.
-- Learn a lot more about CSS.
 - Make the website look just a little bit better.
 - After all of the things above i want to start learning JavaScript to give the website some functionality.
 - At the moment i have just reading through the w3Schools guide to HTML, i wont be adding every feature as i feel some aren't as interesting,
