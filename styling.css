@@ -44,6 +44,7 @@
 }
 .txt {
     color: white;
+    opacity: 1;
 }
 .txt-2 {
     background-color: rgba(255, 99, 71, 0.2);
@@ -59,3 +60,7 @@
     border-collapse: collapse;
     text-align: left;
 }
+.bod {
+    background-image: linear-gradient(to bottom right, #C33764, #1D2671);
+}
+/* This is how you comment in CSS */
