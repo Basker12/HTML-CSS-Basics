@@ -84,9 +84,19 @@
 .vidd {
     text-decoration: none;
 }
+.shadow {
+    text-shadow: 2px 2px;
+}
+.shadowc {
+    text-shadow: 2px 2px red;
+}
+.shadowcb {
+    text-shadow: 2px 2px 5px blue;
+}
 /* This is how you comment in CSS */
 /* You're able to change the pos of the background by writing backgroud-position: right top */
 /* background-repeat: repeat-x; allows to make the background repeat */
 /* border-width can have up to four value these include: top, right, bottom and left */
 /* border-side-style allows you to pick a different border style for each section, top, right, bottom and left */
 /* You can manipulate text in many ways. text-decoration: none removes underlining in an link*/
+/* text-transform has three options. uppercase, lowercase and capitalize. */
