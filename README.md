@@ -7,6 +7,3 @@ So far i've learnt quite a bit, i know how to put in images how to style them in
 
 Things i want to do:
 - I have read the basics of the w3Schools html guide and might start the CSS basics guide now
-- 
-
-
