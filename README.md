@@ -9,4 +9,4 @@ Things i want to do:
 - I have read the basics of the w3Schools html guide and might start the CSS basics guide now
 - 
 
-Im considering to make a new website from scratch and make it look good and make it functional
+
