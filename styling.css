@@ -51,7 +51,7 @@
     border-collapse: collapse;
     text-align: left;
 }
-.body {
+body {
     background-image: linear-gradient(to bottom right, #C33764, #1D2671);
     background-attachment: scroll;
 }
@@ -81,9 +81,6 @@
     border-radius: 5px;
     text-align: center;
 }
-.vidd {
-    text-decoration: none;
-}
 .shadow {
     text-shadow: 2px 2px;
 }
@@ -92,6 +89,10 @@
 }
 .shadowcb {
     text-shadow: 2px 2px 5px blue;
+}
+a {
+    color: darkslategrey;
+    text-decoration: none;
 }
 /* This is how you comment in CSS */
 /* You're able to change the pos of the background by writing backgroud-position: right top */
