@@ -22,8 +22,6 @@
     display: inline-block;
     font-size: 15px;
     border-radius: 8px;
-}
-.css-button {
     transition-duration: 0.4s;
 }
 .css-button:hover {
@@ -101,3 +99,4 @@ a {
 /* border-side-style allows you to pick a different border style for each section, top, right, bottom and left */
 /* You can manipulate text in many ways. text-decoration: none removes underlining in an link*/
 /* text-transform has three options. uppercase, lowercase and capitalize. */
+/*Links can have different colours depending on the state they're in. These are a:link a:visited a:hover and a:active */
