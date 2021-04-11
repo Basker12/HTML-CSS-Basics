@@ -1,119 +1,125 @@
-.h1 {
-    color: black;
-}
-.pringles-class {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-}
-.vid-class {
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-}
-.button-class {
-    color: darkgoldenrod;
-    font-size: 25px;
-}
-.css-button {
-    padding: 5px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-}
-.css-button:hover {
-    background-color: black;
-    color: white
-}
-.h6 {
-    color: darkgoldenrod;
-}
-.txt {
-    color: white;
-    opacity: 1;
-}
-.txt-2 {
-    background-color: rgba(255, 99, 71, 0.2);
-}
-.obama-class {
-    width: 100%;
-    height: 200px;
-}
-.first-table {
-    color: white;
-    width: 250px;
-    border: 1px solid white;
-    border-collapse: collapse;
-    text-align: left;
-}
-body {
-    background-image: linear-gradient(to bottom right, #C33764, #1D2671);
-    background-attachment: scroll;
-}
-.b-1 {
-    border-style: dotted;
-    border-width: 2px;
-    text-align: center;
-}
-.b-2 {
-    border-style: ridge;
-    border-width: 10px;
-    border-color: red;
-    text-align: center
-}
-.b-3 {
-    border-style: outset;
-    border-width: 10px;
-    text-align: center;
-}
-.b-4 {
-    border-left: 20px solid black;
-    background-color: lightblue;
-    text-align: center;
-}
-.b-5 {
-    border: 5px solid red;
-    border-radius: 5px;
-    text-align: center;
-}
-.shadow {
-    text-shadow: 2px 2px;
-}
-.shadowc {
-    text-shadow: 2px 2px red;
-}
-.shadowcb {
-    text-shadow: 2px 2px 5px blue;
-}
-a {
-    color: darkslategrey;
-    text-decoration: none;
-}
-div {
-    overflow: auto;
-    width: 100%;
-    height: 100px;
-}
-.float-img {
-    float: right;
-    width: 350px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 20px;
-}
-hr {
-    border-color: black;
-    background-color: black;
-}
-/* This is how you comment in CSS */
-/* You're able to change the pos of the background by writing backgroud-position: right top */
-/* background-repeat: repeat-x; allows to make the background repeat */
-/* border-width can have up to four value these include: top, right, bottom and left */
-/* border-side-style allows you to pick a different border style for each section, top, right, bottom and left */
-/* You can manipulate text in many ways. text-decoration: none removes underlining in an link*/
-/* text-transform has three options. uppercase, lowercase and capitalize. */
-/*Links can have different colours depending on the state they're in. These are a:link a:visited a:hover and a:active */
-/* z-index controls where text is put where an image is behind it. You can z-index: -1 to put the text infront of the image or z-index: 1 to put it behind an image */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clothing Done Right</title>
+    <link href="/styling.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Clothing Done Right Heading</h1>
+    <img src="images/Clothing Done Right.png" alt="Logo" class="logo-class">
+    <h1>Clothing Done Right</h1> <!--Setting the colour of the paragraph-->
+    <p style = "color: white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam, libero dolores laborum at delectus provident nesciunt autem dolorem totam. Voluptates quae temporibus sed unde, consequatur quisquam dolorem consectetur nihil.</p>
+    <a href="https://www.naughtydog.com/" target="_blank">A link</a> <!--A link to a website and it opens a new tab instead of closing the website-->
+
+    <h1>Mens section</h1>
+    <p style = "color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione excepturi eaque quasi quidem neque, debitis vel! Voluptate minima ex perferendis praesentium magnam rem ut, distinctio magni voluptas dolorum, modi molestiae unde? Soluta adipisci corporis eaque. Itaque accusantium sequi, quos facilis eligendi quidem labore repellendus iure libero hic porro ullam! Inventore amet necessitatibus obcaecati aliquam dolorum culpa sunt numquam illo consequatur rem minima quasi aperiam, ipsa quos aut aspernatur nemo assumenda voluptatem quod omnis autem repellat maxime impedit? Cum vero vitae eos doloribus ratione, quasi rerum esse nobis inventore voluptatum ipsam dolorem doloremque error, dignissimos reprehenderit porro rem consectetur est recusandae libero suscipit fugiat. Iusto harum omnis id ducimus architecto, culpa voluptates placeat quaerat, eius optio illum necessitatibus voluptatem tempore. Blanditiis cum ad eum voluptate facere debitis ea accusamus porro eligendi! Minus, dignissimos, amet expedita dolor deleniti quod mollitia perspiciatis odio suscipit accusamus ducimus sed soluta laudantium reiciendis explicabo esse animi ab. Quibusdam reiciendis sunt impedit porro voluptates tempore quos in cumque corporis, sit explicabo a odio harum assumenda, aperiam sapiente ipsum! Nemo deserunt voluptatibus quae aliquid velit, sapiente eius rem ad molestias, similique optio quia non nisi? Perspiciatis, voluptates porro maxime iure, eum dolore et itaque nam eius minus praesentium.</p>
+    <img src="images/pringles.png" alt="A picture of salt pringle can" class = "pringles-class">
+    <hr>
+    <a href = "images/pringles.png" download>^Click this link to download this image</a>
+
+    <h1>About me</h1>
+    <a class="vidd" href = "/About me.html">Click this link to visit the about me page</a>
+
+    <h1>Listen to this really epic video</h1>
+    <video controls class="vid-class">
+        <source src="videos/yt1s.com - How to gangster 3.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <a href="videos/yt1s.com - How to gangster 3_360p.mp4" download>Download this really eoic video jugego</a> <!--Playing a video from your file system-->
+
+    <h1>Listen to another really epic song</h1>
+    <iframe width="1000" height="500" controls
+    src="https://www.youtube.com/embed/rGHjomb4i-s">
+    </iframe>
+
+    <h1>Buttons</h1>
+    <button type="button">Normal Button</button>
+    <button type="button" class="css-button">CSS Button</button>
+    <hr>
+
+    <h1>General stuff</h1>
+    <p style = "color: white"><abbr title="HyperText Markup Language">HTML</abbr> is used to make websites, well sort of.</p>
+    <p style="background-color: tomato;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consequatur temporibus! Eaque maxime ullam cumque nam voluptatem quasi explicabo temporibus at ab quos, accusantium odit asperiores officia, alias, id praesentium pariatur quam reprehenderit ex ratione. Esse minima vitae possimus sunt quidem ipsam, molestiae fugit, minus, quaerat voluptatum tempora unde suscipit.</p>
+    <p class="txt" style="border:2px solid tomato;">Hey guys</p>
+    <p class="txt-2">This text is using RGBA</p>
+    <a href="https://www.game.co.uk/" target="_blank">
+    <img src="/images/funny.jpg" alt="picture of obama laughing" class="obama-class">
+    </a>
+    <hr>
+
+    <h1>General stuff 2</h1>
+    <table class="first-table">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Kacper</td>
+            <td>Galecki</td>
+            <td>17</td>
+        </tr>
+    </table>
+
+    <p style="color: white">How to make tea #unorderd list</p>
+    <ul style="color: white">
+        <li>milk</li>
+        <li>kettle</li> <!--un-orderd lists have bullet points-->
+    </ul>
+    <p style="color: white">How to make tea #ordered list</p>
+    <ol style="color: white">
+        <li>kettle</li>
+        <li>cup</li> <!--Ordered lists have numbers-->
+    </ol>
+    <hr>    
+    <h1>Iframes</h1>
+    <iframe src="https://github.com/Basker12" title="My GitHub"></iframe>
+    <hr>
+
+    <h1>JavaScript</h1>
+    <p style="color: darkgoldenrod">JavaScript adds functionally to a website</p>
+    <button type="button" onclick="clickFunc()">Click me!</button>
+    <p id="demo" style="color: darkgoldenrod">Click the button</p>
+    <noscript>Sorry your browser doesn't support JavaScript</noscript>
+    <hr>
+
+    <h1>Emojies and UTF-8</h1>
+    <p style="color: darkgoldenrod">Here are three emojies: &#128516, &#128525 and finally &#128151</p>
+    <hr>
+
+    <p>Here are some examples of borders</p>
+    <p class="b-1">This is border one</p>
+    <p class="b-2">This is border two</p>
+    <p class="b-3">This is border three</p>
+    <p class="b-4">This is border four</p>
+    <p class="b-5">This is border five</p>
+
+    <script src="script.js"></script>
+    <hr>
+
+    <p class="shadow">Text with shadows</p>
+    <p class="shadowc">Text with shadows and colour</p>
+    <p class="shadowcb">Text with shadows and colour and a blur effect</p>
+    <hr>
+
+    <h1>Overflow</h1>
+    <p>Overflow allows text to have a scroll function</p>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quis quod iste impedit unde eos dignissimos minus veniam tempora quam neque blanditiis, commodi repudiandae quibusdam deleniti maiores vero quos ut odit omnis error odio? Sed atque impedit ab, asperiores hic aut deleniti, corrupti quas fuga excepturi commodi eligendi eum earum nobis id tempora molestiae minima in perspiciatis! Porro consequuntur obcaecati iure maxime saepe incidunt at aspernatur dignissimos, quas provident tempora nisi fugiat harum aliquid corrupti eum, numquam a repellat natus, recusandae deserunt nesciunt et laudantium error! Autem nobis inventore nihil repudiandae minus quis eaque ut vel magni quo! Sed atque rem, magni maxime deserunt dolores iusto molestiae a possimus obcaecati consequatur at temporibus excepturi nemo architecto. Id provident quae animi deleniti ipsa, illum vel sed maxime facilis fugiat rerum. Natus fugit incidunt ab numquam excepturi minus, aut repudiandae porro voluptatem eaque veritatis accusantium perspiciatis, quas soluta. Ad, blanditiis fugit perspiciatis minima nobis mollitia expedita aperiam est maxime eveniet voluptatum voluptate perferendis, dolore odio dolorum molestias laudantium aliquid qui repellat asperiores illo ratione consectetur, numquam accusamus? Vitae at voluptas quos officiis id voluptatum, autem delectus repellat optio saepe illo corporis quo reprehenderit incidunt facilis inventore assumenda mollitia dicta distinctio reiciendis ab?</div>
+    <hr>
+
+    <h1>Float</h1>
+    <p>Floats allow to make images or text go to certain postions, you can say float: right and the element will go right but you can give pixel values</p>
+    <p><img src="images/angory.png" alt="Ellie" class="float-img">This is ellie from the last of us part 2</p>
+    
+</body>
+</html>
+
+<!--The <div></div> elemnt is a block-level element-->
+<!---<iframe></iframe> allows you to put another website instead of your website-->
+<!---<kbd></kbd> Allows for keyboard shortcuts-->
