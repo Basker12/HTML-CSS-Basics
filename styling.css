@@ -113,6 +113,18 @@ ol {
     margin: 0;
     padding: 0;
 }
+div li {
+    display: inline;
+    padding: 70px;
+}
+div ol {
+    list-style-type: none;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: grey;
+    text-align: center;
+}
 /* This is how you comment in CSS */
 /* You're able to change the pos of the background by writing backgroud-position: right top */
 /* background-repeat: repeat-x; allows to make the background repeat */
