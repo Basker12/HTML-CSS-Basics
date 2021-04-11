@@ -100,3 +100,4 @@ a {
 /* You can manipulate text in many ways. text-decoration: none removes underlining in an link*/
 /* text-transform has three options. uppercase, lowercase and capitalize. */
 /*Links can have different colours depending on the state they're in. These are a:link a:visited a:hover and a:active */
+/* z-index controls where text is put where an image is behind it. You can z-index: -1 to put the text infront of the image or z-index: 1 to put it behind an image */
