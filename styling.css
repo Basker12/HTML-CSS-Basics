@@ -89,8 +89,8 @@ body {
     text-shadow: 2px 2px 5px blue;
 }
 a {
-    color: darkslategrey;
-    text-decoration: none;
+    color: black;
+    /*text-decoration: none;*/
 }
 div {
     overflow: auto;
@@ -107,6 +107,11 @@ div {
 hr {
     border-color: black;
     background-color: black;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 /* This is how you comment in CSS */
 /* You're able to change the pos of the background by writing backgroud-position: right top */
