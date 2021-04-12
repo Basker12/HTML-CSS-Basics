@@ -99,10 +99,13 @@ div {
 }
 .float-img {
     float: right;
-    width: 350px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 20px;
+}
+.float-img:hover {
+    border: 2px solid black;
 }
 hr {
     border-color: black;
