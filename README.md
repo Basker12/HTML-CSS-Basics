@@ -7,3 +7,4 @@ So far i've learnt quite a bit, i know how to put in images how to style them in
 
 Things i want to do:
 - I have started to read the w3schools guide to CSS but i feel like i want to start to make something new and make it look better, so ill be reading through the guide while making the website
+- I cant seem to get the geolocation to work for some reason even though i wrote everything correctly.
