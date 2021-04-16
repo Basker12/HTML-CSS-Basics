@@ -131,6 +131,17 @@ div ol {
     background-color: grey;
     text-align: center;
 }
+.animations {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
 /* This is how you comment in CSS */
 /* You're able to change the pos of the background by writing backgroud-position: right top */
 /* background-repeat: repeat-x; allows to make the background repeat */
