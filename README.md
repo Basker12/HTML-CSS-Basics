@@ -6,5 +6,4 @@ Recently i was set a project to make a website, this website didnt have to look 
 So far i've learnt quite a bit, i know how to put in images how to style them in CSS and put a link under the image to allow the user to download it. I added another page with just an image to test it out. Im not gonna list everything i know so far but check out the index.html file in the repo for the whole code. Of course the website looks like a 5yr old as made it but im gonna improve it too look a lot better.
 
 Things i want to do:
-- I have started to read the w3schools guide to CSS but i feel like i want to start to make something new and make it look better, so ill be reading through the guide while making the website
 - I cant seem to get the geolocation to work for some reason even though i wrote everything correctly.
