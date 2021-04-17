@@ -7,3 +7,4 @@ So far i've learnt quite a bit, i know how to put in images how to style them in
 
 Things i want to do:
 - I cant seem to get the geolocation to work for some reason even though i wrote everything correctly.
+- I think it's time too learn a little more of javascript.
